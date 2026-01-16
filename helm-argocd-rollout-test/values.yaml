@@ -6,7 +6,7 @@ replicaCount: 5
 
 image:
   repository: httpd
-  tag: 2.4
+  tag: 2.4.64
   pullPolicy: IfNotPresent
 
 service:
