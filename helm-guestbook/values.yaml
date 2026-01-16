@@ -5,8 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: gcr.io/google-samples/gb-frontend
-  tag: v6
+#  repository: gcr.io/google-samples/gb-frontend
+#  tag: v4
+  repository: httpd
+  tag: 2.4.61
   pullPolicy: IfNotPresent
 
 containerPort: 80
